@@ -1192,6 +1192,15 @@ document.getElementById("orderForm").addEventListener("submit", event => {
   window.open(whatsappURL, "_blank");
 });
 </script>
+  <script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js")
+        .then(() => console.log("TECH DEMON SUITE app is ready"))
+        .catch(error => console.error("App setup failed:", error));
+    });
+  }
+  </script>
 
 </body>
 </html>
