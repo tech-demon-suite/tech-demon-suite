@@ -1,11 +1,26 @@
 {
+  "id": "./",
   "name": "TECH DEMON SUITE",
   "short_name": "TECH DEMON",
-  "description": "Web development, cybersecurity, UI/UX design, graphic design and digital solutions.",
+  "description": "TECH DEMON SUITE - Digital solutions and technology services.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0a0a",
-  "theme_color": "#e50914"
+  "theme_color": "#e50914",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
