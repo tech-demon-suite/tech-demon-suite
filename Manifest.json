@@ -1,0 +1,11 @@
+{
+  "name": "TECH DEMON SUITE",
+  "short_name": "TECH DEMON",
+  "description": "Web development, cybersecurity, UI/UX design, graphic design and digital solutions.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0a",
+  "theme_color": "#e50914"
+}
